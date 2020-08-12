@@ -15,7 +15,7 @@ public class Base {
             System.setProperty("webdriver.chrome.driver", driverLocation);
             driver = new ChromeDriver();
         } else {
-            System.setProperty("webdriver.gecko.driver", "D:\\Programming\\Selenium\\geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", driverLocation);
             driver = new FirefoxDriver();
         }
 
