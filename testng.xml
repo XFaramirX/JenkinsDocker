@@ -4,7 +4,7 @@
 
     <parameter name="browser" value="firefox"/>
     <parameter name="path" value="D:\Programming\Selenium\geckodriver.exe"/>
-    <parameter name="url" value="https://www.google.com/?gws_rd=ssl"/>
+    <parameter name="url" value="https://www.goibibo.com/"/>
 
     <test verbose="2" name="JobApp">
         <classes>

@@ -29,8 +29,8 @@ public class Tasks {
 
 
     @Test
-    public void sortPrices() {
-        homePage.sortPrices();
+    public void searchFlight() {
+        homePage.searchFlight("Mumbai", "delhi");
     }
 
 
