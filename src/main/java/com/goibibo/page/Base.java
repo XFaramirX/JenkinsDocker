@@ -19,10 +19,10 @@ public class Base {
             driver = new FirefoxDriver();
         }
 
-        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get(url);
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         return driver;
 
     }

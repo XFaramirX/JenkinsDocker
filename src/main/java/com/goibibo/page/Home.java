@@ -33,8 +33,6 @@ public class Home {
     @FindBy(xpath = ".//*[@role='listbox']/li")
     List<WebElement> suggestionList;
 
-    
-
 
     public void searchFlight(String sourceName, String destinationName) {
         WebDriverWait wait = new WebDriverWait(driver, 10);
@@ -52,9 +50,10 @@ public class Home {
         destination.sendKeys(Keys.ENTER);
 
 
+    }
+
+    public void search() {
         searchButton.click();
-
-
     }
 
 
