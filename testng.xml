@@ -6,6 +6,18 @@
     <parameter name="path" value="D:\Programming\Selenium\geckodriver.exe"/>
     <parameter name="url" value="https://www.goibibo.com/"/>
 
+    <parameter name="destination" value="Mumbai"/>
+    <parameter name="returnLocation" value="delhi"/>
+
+    <parameter name="adultTitle" value="Mr"/>
+    <parameter name="adultfirstName1" value="David"/>
+    <parameter name="adultmiddleName1" value="Barrera"/>
+    <parameter name="adultlastName" value="Bernal"/>
+    <parameter name="email" value="xfaramir@gmail.com"/>
+    <parameter name="countryCode" value="+57"/>
+    <parameter name="phoneNumber" value="3192513233"/>
+
+
     <test verbose="2" name="JobApp">
         <classes>
             <class name="com.goibibo.page.tasks.Tasks">
